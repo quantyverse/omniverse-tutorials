@@ -9,37 +9,46 @@ author:
   name: "Thomas Bernhard"
   email: "thomas@quantyverse.com"
 
-# Navigation Bar
-nav:
-  - name: "Home"
-    link: "/"
-  - name: "Basics"
-    link: "/basics/"
-  - name: "User Interface (UI)"
-    link: "/ui/"
-  - name: "Examples"
-    link: "/examples/"
-  - name: "Setting Up Environment"
-    link: "/basics/setting-up-environment/"
-
-# Markdown processing
-markdown: kramdown
-highlighter: rouge
-
-# Jekyll Theme Settings (Optional)
-theme: jekyll-theme-minimal # You can choose a different theme if preferred
-
-# Plugins (Optional)
+# Theme configuration
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-remote-theme # make sure you have this plugin enabled
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude these files from processing
+# Navigation Bar
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Basics"
+    url: "/basics/"
+  - title: "User Interface (UI)"
+    url: "/ui/"
+  - title: "Examples"
+    url: "/examples/"
+  - title: "Setting Up Environment"
+    url: "/basics/setting-up-environment/"
+
+# Defaults for layout, content, etc.
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Your Name"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minimal-mistakes-jekyll
+
+# Additional configurations
+paginate: 5 # Number of posts per page in paginated navigation
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
   - vendor/
-
-# Additional configuration options
-paginate: 5 # Number of posts per page in paginated navigation
+  - .jekyll-cache/
+  - .jekyll-metadata
