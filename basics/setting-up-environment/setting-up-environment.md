@@ -4,12 +4,13 @@ This guide will help you set up your development environment for working with th
 
 ## 1. Clone the Kit App Template Repository
 
-Start by cloning the Kit App Template repository from GitHub to your local machine. 
-´´´bash
-git clone https://github.com/NVIDIA-Omniverse/kit-app-template.git
-´´´
+Start by cloning the Kit App Template repository from GitHub to your local machine:
 
-Navigate into the cloned repository once the process is complete.
+    git clone https://github.com/NVIDIA-Omniverse/kit-app-template.git
+
+Navigate into the cloned repository:
+
+    cd kit-app-template
 
 ## 2. Set Up the Required Tools
 
@@ -20,9 +21,13 @@ Navigate into the cloned repository once the process is complete.
 
 To build the project, use the provided scripts according to your operating system:
 
-- For Windows, use the batch script provided in the repository to build the project.
+- **Windows**: 
+      
+      .\repo.bat build
   
-- For Linux, use the shell script provided in the repository to build the project.
+- **Linux**:
+  
+      ./repo.sh build
 
 This command compiles the necessary components and prepares your environment for running the Omniverse applications.
 
@@ -30,9 +35,13 @@ This command compiles the necessary components and prepares your environment for
 
 After building the project, you can launch the application:
 
-- On Windows, use the batch script to launch the application.
+- **Windows**:
+      
+      .\repo.bat launch
   
-- On Linux, use the shell script to launch the application.
+- **Linux**:
+  
+      ./repo.sh launch
 
 During the launch process, you'll be prompted to select the `.kit` file associated with your application, typically located in the `_build` directory.
 
