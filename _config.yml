@@ -1,0 +1,45 @@
+# Site settings
+title: Omniverse Tutorials
+description: A collection of tutorials for Nvidia Omniverse, including guides on setting up your environment, building UIs, and creating extensions.
+baseurl: "" # The subpath of your site, e.g., /blog
+url: "https://thomas-quantyverse.github.io" # The base hostname & protocol for your site
+
+# Author information
+author: 
+  name: "Thomas Bernhard"
+  email: "thomas@quantyverse.com"
+
+# Navigation Bar
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Basics"
+    link: "/basics/"
+  - name: "User Interface (UI)"
+    link: "/ui/"
+  - name: "Examples"
+    link: "/examples/"
+  - name: "Setting Up Environment"
+    link: "/basics/setting-up-environment/"
+
+# Markdown processing
+markdown: kramdown
+highlighter: rouge
+
+# Jekyll Theme Settings (Optional)
+theme: jekyll-theme-minimal # You can choose a different theme if preferred
+
+# Plugins (Optional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Additional configuration options
+paginate: 5 # Number of posts per page in paginated navigation
