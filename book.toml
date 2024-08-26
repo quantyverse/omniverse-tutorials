@@ -1,0 +1,10 @@
+[book]
+authors = ["quantyverse", "Thomas Bernhard"]
+language = "en"
+multilingual = false
+src = "."
+title = "Quantyverse Omniverse Tutorials"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
