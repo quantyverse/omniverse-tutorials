@@ -1,5 +1,5 @@
 [book]
-authors = ["thomas-quantyverse"]
+authors = ["quantyverse", "Thomas Bernhard"]
 language = "en"
 multilingual = false
 src = "."
