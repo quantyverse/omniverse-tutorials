@@ -12,3 +12,4 @@
 - [UI](ui/index.md)
   - [Create a User Interface (UI) in Nvidia Omniverse](ui/how-to-build-ui/how-to-build-ui.md)
   - [UI Label (ui.Label)](ui/basic-ui-elements/01-ui-label.md)
+  - [UI Button (ui.button)](ui/basic-ui-elements/01-ui-button.md)
