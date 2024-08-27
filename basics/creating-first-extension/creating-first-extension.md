@@ -1,6 +1,6 @@
 # Creating your first extension in Nvidia Omniverse
 
-This guide will help you to create your first extension in the App you just created here [Create Frist App / Setting up Environment](basics/setting-up-environment/setting-up-environment.md)
+This guide will help you to create your first extension in the App you just created here [Create Frist App / Setting up Environment](../setting-up-environment/setting-up-environment.md)
 
 
 ## 1. Create and Configure New Extension From Template
