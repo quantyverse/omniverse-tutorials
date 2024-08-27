@@ -68,7 +68,7 @@ Omniverse supports hot-reloading, which means you can test your UI in real-time 
 
 ## Step 7: Add content to your created extension
 
-If you like you can create an extension like we did in [Creating First Extension](../basics/creating-first-extension/creating-first-extension.md) and add your UI to it.
+If you like you can create an extension like we did in [Creating First Extension](../../basics/creating-first-extension/creating-first-extension.md) and add your UI to it.
 
 ## Conclusion
 
