@@ -16,19 +16,18 @@ Before diving into UI creation, ensure that your Omniverse development environme
 Start by creating a new window that will house your UI elements. This is done by instantiating a Window object in your extension's Python script.
 
 ```python
-    python
-    import omni.ui as ui
-    import omni.ext
+import omni.ui as ui
+import omni.ext
 
-    class MyExtension(omni.ext.IExt):
-        def on_startup(self, ext_id):
-            self._window = ui.Window("My Window", width=400, height=300)
-            with self._window.frame:
-                self._build_ui()
+class MyExtension(omni.ext.IExt):
+    def on_startup(self, ext_id):
+        self._window = ui.Window("My Window", width=400, height=300)
+        with self._window.frame:
+            self._build_ui()
 ```
 This code snippet creates a window titled "My Window" with a specified width and height. The - with self._window.frame: - block is where you'll build the actual UI.
 
-##Step 3: Building the UI Layout
+## Step 3: Building the UI Layout
 
 Next, define the layout for your UI components. Omniverse offers various layout containers such as VStack (Vertical Stack), HStack (Horizontal Stack), and Grid. These help organize your UI elements effectively.
 
@@ -40,7 +39,7 @@ def _build_ui(self):
 ```
 In this example, a vertical stack is used to align a label and a button. The clicked_fn parameter links the button to a callback function that handles the click event.
 
-##Step 4: Adding Interactivity with Widgets
+## Step 4: Adding Interactivity with Widgets
 
 Omniverse's omni.ui provides a wide range of widgets that you can add to your UI, such as sliders, checkboxes, text fields, and more.
 
@@ -67,9 +66,9 @@ with ui.ScrollingFrame():
 
 Omniverse supports hot-reloading, which means you can test your UI in real-time as you develop it. This is invaluable for iterating on your design quickly. Make sure to test your UI thoroughly to ensure it behaves as expected.
 
-## Step 7: Finalizing and Distributing Your Extension
+## Step 7: Add content to your created extension
 
-Once your UI is complete and tested, package your extension for distribution or use within the Omniverse platform.
+If you like you can create an extension like we did in [Creating First Extension](../basics/creating-first-extension/creating-first-extension.md) and add your UI to it.
 
 ## Conclusion
 
