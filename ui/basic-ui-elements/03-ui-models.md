@@ -40,8 +40,8 @@ text_input.model.set_value("Hello, Omniverse!")
 ### 3. Responding to changes
 
 ```python
-def on_text_changed(value):
-    print(f"Text changed to: {value}")
+def on_text_changed(*args):
+    print(f"Text changed to: {text_input.model.get_value_as_string()}")
 
 text_input.model.add_value_changed_fn(on_text_changed)
 ```
