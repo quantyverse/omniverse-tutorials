@@ -39,10 +39,12 @@ Run the following command to initiate the configuration wizard:
 Follow the prompt instructions:
 
 * **? Select with arrow keys what you want to create:** Application
-* **? Select with arrow keys your desired template:** Kit Base Editor
+* **? Select with arrow keys your desired template:** Kit Base Editor or USD Composer
 * **? Enter name of application .kit file [name-spaced, lowercase, alphanumeric]:** [set application name]
 * **? Enter application_display_name:** [set application display name]
 * **? Enter version:** [set application version]
+
+> **Note:** If you choose for example the Kit Base Editor you need to add into the ./source/apps/your_app_name.kit under dependencies the following "omni.kit.window.extensions" = {}. Otherwise you can not use the Extensions Manager to start new extensions in your app as explained in step 6.
 
 ## 4. Build the Project
 
