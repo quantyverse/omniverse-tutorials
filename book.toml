@@ -8,3 +8,6 @@ title = "Quantyverse Omniverse Tutorials"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
+
+[output.pdf]
+renderer = "mdbook-pdf"
