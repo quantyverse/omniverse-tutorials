@@ -9,5 +9,5 @@ title = "Quantyverse Omniverse Tutorials"
 default-theme = "light"
 preferred-dark-theme = "navy"
 
-[output.pdf]
-renderer = "mdbook-pdf"
+# [output.pdf]
+# renderer = "mdbook-pdf"
