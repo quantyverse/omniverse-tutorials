@@ -1,19 +1,31 @@
-# omniverse_tutorials
-Tutorials for Nvidia Omniverse
+# Omniverse Tutorials
 
-Hey! Nice to have you here in search for Nvidia Omniverse Guidance and Tutorials. Quantyverse is currently in progress at bringing together a mdbook and code to make your life with Nvidia Omniverse easier.
+Welcome to Quantyverse's Nvidia Omniverse Tutorials and Guidance repository!
 
-I am also inserting the knowledge into AI Assistant on different platforms. So choose the Platform you like the most and use the Ai Assistant there :)
+## About This Project
 
-## CustomGPT
-  - https://chatgpt.com/g/g-LRe32VOTi-quanty-omniverse-tutorials
+We're working on creating a comprehensive mdbook and code examples to simplify your experience with Nvidia Omniverse. Our goal is to provide clear, accessible tutorials for users of all levels.
 
-## Poe
-  - https://poe.com/Quanty_Omniverse_Bot
+## AI-Assisted Learning
 
-Keep in mind that the knoweldge base is in progress, so are the Ai Assistants. They are only as clever as the knowledge I am feeding them. This means they can make mistakes. Don´t hesitate and give Feedback what they are missing or doing wrong.
+To enhance your learning experience, we're integrating our knowledge base into AI assistants across different platforms. Choose your preferred platform and start learning:
 
-Thank you and Happy Coding and Tinkering!
+- **CustomGPT**: [Quanty Omniverse Tutorials](https://chatgpt.com/g/g-LRe32VOTi-quanty-omniverse-tutorials)
+- **Poe**: [Quanty Omniverse Bot](https://poe.com/Quanty_Omniverse_Bot)
 
+## Work in Progress
+
+Please note that both our knowledge base and AI assistants are continuously evolving. The AI's responses are based on the information we've provided, which means they may occasionally make mistakes or have gaps in their knowledge.
+
+## Feedback
+
+Your feedback is crucial for improving these resources. If you notice any errors or missing information, please don't hesitate to let us know. We're committed to making these tutorials as helpful and accurate as possible.
+
+## Get Started
+
+Explore the tutorials, experiment with the code, and enjoy your journey into Nvidia Omniverse!
+
+Thank you for your interest in our project. Happy coding and tinkering!
+
+Best regards,
 Thomas from Quantyverse
-
