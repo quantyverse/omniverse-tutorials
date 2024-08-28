@@ -8,7 +8,6 @@
   - [Core Concepts](basics/core-concepts/core-concepts.md)
 
 - [Examples](examples/index.md)
-  - [Simple Button Example](examples/simple-button-example/simple-button-example.md)
 - [UI](ui/index.md)
   - [Basic UI Elements](ui/basic-ui-elements/index.md)
     - [UI Label (ui.Label)](ui/basic-ui-elements/01-ui-label.md)
