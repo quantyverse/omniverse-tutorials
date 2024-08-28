@@ -12,5 +12,5 @@
   - [Basic UI Elements](ui/basic-ui-elements/index.md)
     - [UI Label (ui.Label)](ui/basic-ui-elements/01-ui-label.md)
     - [UI Button (ui.button)](ui/basic-ui-elements/02-ui-button.md)
-    - [UI Models](ui/basic-ui-elements/ui-models.md)
-    - [ui.StringField, FloatField, and IntField](ui/basic-ui-elements/ui-input-fields.md)
+    - [UI Models](ui/basic-ui-elements/03-ui-models.md)
+    - [ui.StringField, FloatField, and IntField](ui/basic-ui-elements/04-ui-input-fields.md)
